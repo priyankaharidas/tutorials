@@ -1,75 +1,34 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>GONZO</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!doctype html>
+<html>
+<head> 
+<title>MYwebpage</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
+<h1>This website is about ME</h1>
+<img src"priya.png" width="250" height="250">
+<p class="one">Hi everybody!
 
+ I'm Sai Priyanka Haridasu, CS grad student from University of South Alabama where I finished my first semester (with a 4.0/4.0 GPA).
+ I am very excited to be here ( at River University) with you all and 
+ I really love this campus and Boston overall. I feel we have better course work compared to my previous university and few other universities, 
+ which I was considering, and this is the primary reason why I transferred over. </p>
 
-<!--========================Header Starts======================================-->
+<p class="two">Coming to my past, I am from Southern part of India from  a place called Guntur  close to Hyderabad.
+ I did all my education, right from kinder-garden to my under-graduation, in my home town. 
+ I love playing chess, listening to music and solving puzzles. 
+ I love to constantly challenge myself with new and difficult problems both in personal life and in career. 
+ I regularly watch Ted Shows to motivate myself to learn new technologies and I am a big fan of Elon Musk.</p>
 
-	<div class="header">
-		
-		<div class="logo">
-		
-			<h1><a href="#">GONZO</a></h1>
-		
-		</div>
+<p class="three">Few years down the line I like to see myself running my own software development firm at my home town and
+ I like to start my career as a C# developer, which I think is a perfect launching pad for my career. </p>
 
-	</div>
+<p class="four">Coming to my family they are the dearest friends and very loving guardians.
+ My father is a business man and mother is a home maker and my sister is perusing her undergrad in CS.
+ Because of all the love they showered upon me, I cannot even imagine a life without them and even if I had such a nightmare that would be my biggest nightmare.
+ So with my families support I like to start an orphanage in Guntur.</p>
 
-<!--==========================Header Ends======================================-->
-
-<!--==============================Navigatin starts=============================-->
-
-	<div class="navigation">
-		<ul>
-			<li><a class="active" href="index.html">HOME</a></li>
-			<li><a href="about.html">ABOUT</a></li>
-			<li><a href="picture.html">PICTURES</a></li>
-			<li class="bdr"><a class="pdg" href="contact.html">CONTACT</a></li>					
-		</ul>
-	</div>
-<!--==============================Navigatin Ends=============================-->
-
-<!--==============================Slider Starts==============================-->
-
-		<div id="slider">
-			<ul>				
-				<li><a href="#"><img src="images/slide1.png" alt="" /></a></li>
-				<li><a href="#"><img src="images/slide2.png" alt="" /></a></li>
-				<li><a href="#"><img src="images/slide3.png" alt="" /></a></li>
-			</ul>
-		</div>
-
-<!--==============================Slider   Ends==============================-->
-
-
-<!--==============================Footer Starts==============================-->
-
-<div class="footer">
-
-<p>&copy; 2014 by XYZ </p>
-
-<!--==============================Footer Ends==============================-->
-</div>
-
-
-
-<!--==========================Scripts Starts=============================-->
-	<script type="text/javascript" src="js/jquery.js"></script>	
-	<script type="text/javascript" src="js/easySlider1.7.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){	
-			$("#slider").easySlider({
-				auto: true, 
-				continuous: true
-			});
-		});	
-	</script>
-<!--==========================Scripts Ends=============================-->
+<p class="five">Hope I can raise good funds from all of you ........................... :)</p>
 
 </body>
 </html>
